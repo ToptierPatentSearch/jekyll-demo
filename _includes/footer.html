@@ -1,0 +1,12 @@
+
+<footer class="site-footer">
+  <p>
+    &copy; <span id="copyright-year"></span>
+    {{ site.title }}. All rights reserved.
+  </p>
+</footer>
+
+<script>
+  document.getElementById("copyright-year").textContent =
+    new Date().getFullYear();
+</script>
